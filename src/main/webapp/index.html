@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikacja samochodowa</title>
+</head>
+<body>
+  <form action="requestServlet" method="post">
+    <fieldset>
+      <legend>Wybierz rodzaj samochodu</legend>
+      <div>
+        <div>
+          <input type="radio" name="carType" value="osobowy" id="osobowy">
+          <label for="osobowy">osobowy</label>
+        </div>
+        <div>
+          <input type="radio" name="carType" value="ciezarowy" id="ciezarowy">
+          <label for="ciezarowy">ciezarowy</label>
+        </div>
+        <div>
+          <input type="radio" name="carType" value="dostawczy" id="dostawczy">
+          <label for="dostawczy">dostawczy</label>
+        </div>
+        <div>
+          <input type="radio" name="carType" value="f1" id="f1">
+          <label for="f1">f1</label>
+        </div>
+      </div>
+    </fieldset>
+    <input type="submit" value="Wyślij">
+  </form>
+
+</body>
+</html>
