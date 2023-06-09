@@ -13,4 +13,5 @@ public class RequestServlet extends HttpServlet {
         request.setAttribute("carType", carType);
         request.getRequestDispatcher("/databaseServlet").forward(request, response);
     }
+
 }
